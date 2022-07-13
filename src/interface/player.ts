@@ -1,6 +1,7 @@
 interface IPlayer {
     name: string | string[] | undefined,
-    isReady: boolean
+    isReady: boolean,
+    progress: number
 };
 
 export { IPlayer };
